@@ -1,6 +1,6 @@
 # procedure d'instalation et  mountage iphone
 
-** Instalation des libs 
+* Instalation des libs 
 ```
 sudo dnf install install ifuse libimobiledevice libusbmuxd usbmuxd gvfs-afc
 ```
@@ -10,13 +10,13 @@ sudo dnf install install ifuse libimobiledevice libusbmuxd usbmuxd gvfs-afc
 mkdir -p ~/iphone
 ```
 
-** mounter l'iphone
+* mounter l'iphone
 
 ```
 ifuse ~/iphone
 ```
 
-** demounter l'iphone
+* demounter l'iphone
 
 ```
 fusermount -u ~/iphone
